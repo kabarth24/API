@@ -1,5 +1,7 @@
 require("express-async-errors");
 
+const database = require("./database");
+
 const AppError = require("./utils/App.Error");
 
 const express = require("express"); // Importar o Express
